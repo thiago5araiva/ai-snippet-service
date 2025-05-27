@@ -1,5 +1,6 @@
 {
   "name": "ai-snippet-backend",
+  "license": "MIT",
   "version": "1.0.0",
   "description": "Backend for AI Snippet Service",
   "main": "dist/server.js",

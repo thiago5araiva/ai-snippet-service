@@ -1,3 +1,5 @@
+import mongoose from 'mongoose'
+
 export const connectDB = async (): Promise<void> => {
   try {
     const conn = await mongoose.connect(
