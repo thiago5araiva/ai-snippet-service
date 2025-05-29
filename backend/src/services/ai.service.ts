@@ -1,5 +1,6 @@
 import OpenAI from 'openai'
-
+import dotenv from 'dotenv'
+dotenv.config()
 export class AIService {
   private openai: OpenAI
   constructor() {
